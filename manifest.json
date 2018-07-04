@@ -1,0 +1,24 @@
+{
+	"name": "Surviv Hacks",
+	"author": "[SHG] IceHacks",
+	"manifest_version": 2,
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*://surviv.io/*"
+	],
+	"web_accessible_resources": [
+		"hacks/hack-hub.js"
+	],
+	"content_scripts": [{
+		"matches": [
+			"*://surviv.io/*"
+		],
+		"js": ["content.js"],
+		"run_at": "document_start"
+	}],
+	"version": "1.0.0"
+}
