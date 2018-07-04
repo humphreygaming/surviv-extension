@@ -13,3 +13,11 @@ chrome.webRequest.onBeforeRequest.addListener(() => {
 }, {
     "urls": ["*://surviv.io/img/map/*ceiling*.svg"]
 }, ["blocking"]);
+chrome.webRequest.onBeforeRequest.addListener((details) => {
+    var id = details.url.replace(/http.*?:\/\/surviv\.io\/img\/particles\/part-smoke-/g, "");
+    return {
+        "redirectUrl": `https://survivhaxed.000webhostapp.com/img/particles/part-smoke-${id}`
+    }
+}, {
+    "urls": ["*://surviv.io/img/particles/part-smoke-*"]
+}, ["blocking"]);
