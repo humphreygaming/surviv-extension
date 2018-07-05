@@ -2,8 +2,7 @@
 A very simple surviv hack because I am so tired of complex stuff. Basically these features
 
 * Bigger zoom
-* No roofs
-* Transparent smoke (or not I am not sure yet)
+* No roofs (houses, metal bins, ect.)
 
 Install by downloading the <a href="https://github.com/IceHacks/surviv-extension/archive/master.zip">ZIP</a> and doing the following.
 
