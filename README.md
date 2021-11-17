@@ -1,15 +1,5 @@
-# Surviv.io Extension Hack
-A very simple surviv hack because I am so tired of complex stuff. Basically these features
+3 Years Later...
 
-* Bigger zoom
-* No roofs
-* Transparent smoke (or not I am not sure yet)
+So yea, this used to be the cheat for a while. Now archived, this was a fork to preserve the original code I think? Honestly, it's been a long time and I have forgotten what this even is. Going from the variable "reukeRunScript", it's safe to assume this was an early version of Surviv Cheat Injector, which at the time was an upgraded version of Reuke and Kalaborative's Surviv-Cheat.
 
-Install by downloading the <a href="https://github.com/IceHacks/surviv-extension/archive/master.zip">ZIP</a> and doing the following.
-
-* Extract the <a href="https://github.com/IceHacks/surviv-extension/archive/master.zip">ZIP</a> to a folder on your PC.
-* Open `chrome://extensions` and click `developer mode`
-* Next, click `load unpacked extension` find the directory of the extension.
-* Install it and play surviv.io
-
-Be careful I was banned but I was using a VPN so I don't care.
+Been a while, hasn't it? Thanks for sticking around.
